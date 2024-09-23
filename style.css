@@ -1,0 +1,164 @@
+* {
+    overflow: auto;
+}
+
+body {
+    background-color: #8ba1bb;
+    font-family: Arial, serif;
+    margin: 0;
+}
+
+.content {
+    background-color: white;
+    margin: 60px 10% 80px 10%;
+    padding: 0 30px 30px 30px;
+    min-width: 350px;
+    box-shadow: 0 0 8px 8px rgba(0, 0, 0, 0.1);
+    overflow: visible;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.center {
+    text-align: center;
+    width: 100%;
+}
+
+div.category {
+    margin-bottom: 0;
+    margin-top: 0;
+    overflow: visible;
+}
+
+p.category {
+    color: white;
+    background-color: black;
+    display: inline-block;
+    margin-top: -15px;
+    margin-bottom: 0;
+    padding: 8px 28px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+p.description {
+    text-align: center;
+    max-width: 400px;
+    display: inline-block;
+    font-size: 14px;
+}
+
+div.description {
+    text-align: center;
+}
+
+
+.line {
+    height: 1px;
+    width: 100px;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img_table {
+    position: relative;
+}
+
+.table {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    background-color: #6c829dC0;
+    height: 18px;
+}
+
+.image {
+    display: block;
+    object-fit: cover;
+    max-height: 400px;
+    min-height: 200px;
+    background-color: lightgray;
+}
+
+table td, th {
+    text-align: center;
+    padding-top: 15px;
+}
+
+.col {
+    width: 45%;
+    margin-top: 20px;
+}
+
+.col_1 {
+    display: inline-block;
+    margin-right: 10%;
+    margin-bottom : 20px;
+}
+
+.col_2 {
+    float: right;
+}
+
+.col h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    border-bottom: 5px solid #6c829d;
+    padding-bottom: 5px;
+}
+
+.list {
+}
+
+.list p {
+    border: 1px solid lightgray;
+    margin-top: 4px;
+    margin-bottom: 0;
+    padding: 8px 0;
+    font-size: 14px;
+    text-align: center;
+}
+
+.instructions p {
+    background-color: #6C829D;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    padding-top: 4px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.td_text {
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.instructions tr {
+    height: 40px;
+}
+
+.instructions td {
+    vertical-align: top;
+}
+
+.footer {
+    text-align: center;
+    font-style: italic;
+}
+
+.footer h5 {
+    margin-bottom: 0;
+}
